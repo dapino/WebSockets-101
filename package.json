@@ -1,0 +1,24 @@
+{
+  "name": "websockets-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "ws": "^7.4.5"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  },
+  "scripts": {
+    "start:dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "lint": "standard --fix"
+  },
+  "keywords": [
+    "Node",
+    "WebSockets"
+  ],
+  "author": "dapino",
+  "license": "ISC"
+}
